@@ -18,7 +18,7 @@ def lambda_handler(event, context):
         try:
             table.put_item(
                 Item = {
-                    "id"        : stud_data[0],
+                    "ID"        : stud_data[0],
                     "name"      : stud_data[1],
                     "Subject"   : stud_data[2]
                 }
